@@ -1,0 +1,26 @@
+IF
+Global("Cb_CowlsKillPC","AR1000",1)
+THEN
+RESPONSE #100
+SetGlobal("Cb_CowlsKillPC","AR1000",2)
+CreateCreatureOffScreen("CBSCCWEN",S)
+CreateCreatureOffScreen("CBSCCWEN",S)
+CreateCreatureOffScreen("CBSCCWEN",S)
+CreateCreatureOffScreen("CBSCCWEN",S)
+CreateCreatureOffScreen("CBSCCWEN",S)
+CreateCreatureOffScreen("CBSCCWEN",S)
+CreateCreatureOffScreen("CBSCCWEN",S)
+Continue()
+END
+
+IF
+GlobalLT("CbSilenceOrSaveMadame","GLOBAL",2)
+Global("CbCowlClientsSpawned","AR1000",0)
+THEN
+RESPONSE #100
+IncrementGlobal("CbSilenceOrSaveMadame","GLOBAL",1)
+SetGlobal("CbCowlClientsSpawned","AR1000",1)
+CreateCreature("CBSCCW01",[2264.1490],SSE)
+CreateCreature("CBSCCW02",[2292.1539],NE)
+Continue()
+END

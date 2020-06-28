@@ -50,5 +50,5 @@ COMPILE ~Melynda/d~ EVALUATE_BUFFER
 EXTEND_TOP ~ar0406.bcs~ ~Melynda/Extend/ar0406.baf~
 EXTEND_TOP ~ar1000.bcs~ ~Melynda/Extend/ar1000.baf~
 
-ADD_JOURNAL @84 @85 USING  ~Melynda/TRA/CBSCHOOK.tra~
-ADD_JOURNAL @70 @69 USING  ~Melynda/TRA/CBSCCW01.tra~
+ADD_JOURNAL @84 @85 USING  ~Melynda/%s/CBSCHOOK.tra~
+ADD_JOURNAL @70 @69 USING  ~Melynda/%s/CBSCCW01.tra~

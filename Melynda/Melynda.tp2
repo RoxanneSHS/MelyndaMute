@@ -3,7 +3,7 @@ AUTHOR ~Roxanne@baldursextendedworld.com based on a Charles Bisson's CtB quest~
 
 AUTO_TRA ~Melynda/%s~
 
-VERSION ~v0.2~
+VERSION ~v0.3~
 
 ALWAYS
   ACTION_IF (GAME_IS ~eet~) BEGIN
